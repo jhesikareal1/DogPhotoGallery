@@ -14,7 +14,7 @@ body{
     color: #000040;
     border-bottom: 4px solid #000040;
 }
-
+/* FLEX-CONTAINER */
 .gallery {
     display: flex;
     flex-direction: row-reverse;
@@ -24,10 +24,14 @@ body{
     padding: 20px 10px;
     max-width: 1400px;
     margin: 0 auto;
+    gap: 16px;
 }
+
+/* FLEX-ITEM */
 .gallery img{
     width: 100%;
     max-width: 350px;
     height: 300px;
      object-fit: cover; /*work with aspect ratio and solve image distortion */
+     border-radius: 10px;
 }
